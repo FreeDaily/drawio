@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-20T02:47:23.412Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="1SeLimZhGn5rC2d1n_Sq" version="14.2.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-20T03:05:24.986Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="esqN9B6-5XiVEH8mqfwM" version="14.2.5" type="github" pages="2">
   <diagram id="0muOXyBjKCTtA4VXi9-D" name="Kakfa-状态扭转">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -118,29 +118,71 @@
         </mxCell>
         <mxCell id="W9QeGMDgNjnTVCL9lkLq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="b_AmxPx6At0wfMh_Drbb-1" source="W9QeGMDgNjnTVCL9lkLq-0" target="W9QeGMDgNjnTVCL9lkLq-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="170" as="targetPoint" />
+            <mxPoint x="320" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="W9QeGMDgNjnTVCL9lkLq-0" value="消费端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b_AmxPx6At0wfMh_Drbb-1">
-          <mxGeometry x="30" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W9QeGMDgNjnTVCL9lkLq-8" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="b_AmxPx6At0wfMh_Drbb-1" source="W9QeGMDgNjnTVCL9lkLq-3" target="W9QeGMDgNjnTVCL9lkLq-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W9QeGMDgNjnTVCL9lkLq-3" value="加入组" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="b_AmxPx6At0wfMh_Drbb-1">
-          <mxGeometry x="330" y="20" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W9QeGMDgNjnTVCL9lkLq-10" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="b_AmxPx6At0wfMh_Drbb-1" source="W9QeGMDgNjnTVCL9lkLq-6" target="W9QeGMDgNjnTVCL9lkLq-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W9QeGMDgNjnTVCL9lkLq-6" value="等待Leader消费者分配方案" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b_AmxPx6At0wfMh_Drbb-1">
-          <mxGeometry x="330" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W9QeGMDgNjnTVCL9lkLq-7" value="JoinGroup请求" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="b_AmxPx6At0wfMh_Drbb-1">
-          <mxGeometry x="560" y="20" width="120" height="60" as="geometry" />
+          <mxGeometry x="580" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W9QeGMDgNjnTVCL9lkLq-9" value="SyncGroup请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b_AmxPx6At0wfMh_Drbb-1">
-          <mxGeometry x="560" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="580" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BKudhYFwqgqZrFl3_3fa-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="b_AmxPx6At0wfMh_Drbb-1" source="BKudhYFwqgqZrFl3_3fa-0" target="BKudhYFwqgqZrFl3_3fa-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BKudhYFwqgqZrFl3_3fa-8" value="JoinGropu 请求 我是成员2 订阅 topic:B&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BKudhYFwqgqZrFl3_3fa-6">
+          <mxGeometry x="-0.4776" y="5" relative="1" as="geometry">
+            <mxPoint x="69" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKudhYFwqgqZrFl3_3fa-0" value="成员2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b_AmxPx6At0wfMh_Drbb-1">
+          <mxGeometry x="80" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BKudhYFwqgqZrFl3_3fa-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="b_AmxPx6At0wfMh_Drbb-1" source="BKudhYFwqgqZrFl3_3fa-1" target="BKudhYFwqgqZrFl3_3fa-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BKudhYFwqgqZrFl3_3fa-5" value="JoinGropu 请求 我是成员1 订阅 topic:A&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BKudhYFwqgqZrFl3_3fa-3">
+          <mxGeometry x="-0.0783" y="-6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKudhYFwqgqZrFl3_3fa-1" value="成员1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b_AmxPx6At0wfMh_Drbb-1">
+          <mxGeometry x="70" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BKudhYFwqgqZrFl3_3fa-4" value="当前组领导是 成员2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="b_AmxPx6At0wfMh_Drbb-1" source="BKudhYFwqgqZrFl3_3fa-2" target="BKudhYFwqgqZrFl3_3fa-1">
+          <mxGeometry x="-0.1059" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="340" />
+              <mxPoint x="340" y="325" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKudhYFwqgqZrFl3_3fa-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1.008;entryY=0.867;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="b_AmxPx6At0wfMh_Drbb-1" source="BKudhYFwqgqZrFl3_3fa-2" target="BKudhYFwqgqZrFl3_3fa-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BKudhYFwqgqZrFl3_3fa-9" value="你是 group lead&amp;nbsp; 成员订阅信息 { 成员1}" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BKudhYFwqgqZrFl3_3fa-7">
+          <mxGeometry x="0.4932" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKudhYFwqgqZrFl3_3fa-2" value="协调者(coordinator)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b_AmxPx6At0wfMh_Drbb-1">
+          <mxGeometry x="540" y="380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
