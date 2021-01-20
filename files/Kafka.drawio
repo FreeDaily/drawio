@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-20T03:05:24.986Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="esqN9B6-5XiVEH8mqfwM" version="14.2.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-20T03:08:05.530Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="lm0nvoE_aa2eJTW4i51j" version="14.2.5" type="github" pages="2">
   <diagram id="0muOXyBjKCTtA4VXi9-D" name="Kakfa-状态扭转">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -151,7 +151,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BKudhYFwqgqZrFl3_3fa-0" value="成员2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b_AmxPx6At0wfMh_Drbb-1">
-          <mxGeometry x="80" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BKudhYFwqgqZrFl3_3fa-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="b_AmxPx6At0wfMh_Drbb-1" source="BKudhYFwqgqZrFl3_3fa-1" target="BKudhYFwqgqZrFl3_3fa-2">
           <mxGeometry relative="1" as="geometry" />
@@ -162,13 +162,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BKudhYFwqgqZrFl3_3fa-1" value="成员1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b_AmxPx6At0wfMh_Drbb-1">
-          <mxGeometry x="70" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BKudhYFwqgqZrFl3_3fa-4" value="当前组领导是 成员2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="b_AmxPx6At0wfMh_Drbb-1" source="BKudhYFwqgqZrFl3_3fa-2" target="BKudhYFwqgqZrFl3_3fa-1">
           <mxGeometry x="-0.1059" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="340" y="340" />
-              <mxPoint x="340" y="325" />
+              <mxPoint x="340" y="370" />
+              <mxPoint x="340" y="355" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -176,13 +176,13 @@
         <mxCell id="BKudhYFwqgqZrFl3_3fa-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1.008;entryY=0.867;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="b_AmxPx6At0wfMh_Drbb-1" source="BKudhYFwqgqZrFl3_3fa-2" target="BKudhYFwqgqZrFl3_3fa-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BKudhYFwqgqZrFl3_3fa-9" value="你是 group lead&amp;nbsp; 成员订阅信息 { 成员1}" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BKudhYFwqgqZrFl3_3fa-7">
+        <mxCell id="BKudhYFwqgqZrFl3_3fa-9" value="你是 group lead&amp;nbsp; 成员订阅信息 { 成员1：A ，成员2:B；" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BKudhYFwqgqZrFl3_3fa-7">
           <mxGeometry x="0.4932" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="167" y="-10.01" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BKudhYFwqgqZrFl3_3fa-2" value="协调者(coordinator)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b_AmxPx6At0wfMh_Drbb-1">
-          <mxGeometry x="540" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="540" y="410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
